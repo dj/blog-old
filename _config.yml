@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Writings
+title: Blog
 author: Daniel Jay Hartman
 # email: djhrtmn@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -26,6 +26,7 @@ github_username: dj
 permalink: /:year/:title
 
 # Build settings
+destination: docs
 markdown: kramdown
 theme: minima
 plugins:
