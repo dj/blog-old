@@ -1,9 +1,0 @@
-#!/bin/bash
-set -euo pipefail
-
-./scripts/build
-
-read -p "⚠️  Enter commit description: " desc
-git add -A && \
-git commit -m "$desc" && \
-git push origin master

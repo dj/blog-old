@@ -1,9 +1,5 @@
 #!/bin/bash
 set -euo pipefail
 
-if [[ ${1-''} == "--watch" ]]; then
-    cp CNAME ./docs/CNAME
-    bundle exec jekyll build --watch
-else
-    bundle exec jekyll build
-fi
+bundle exec jekyll build
+cp CNAME ./docs/CNAME
