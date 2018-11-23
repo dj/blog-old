@@ -1,4 +1,5 @@
 # Blog
+Jekyll blog based on [minima](https://github.com/jekyll/minima) theme.
 
 ## Scripts
 
