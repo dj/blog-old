@@ -2,6 +2,7 @@
 set -euo pipefail
 
 if [[ ${1-''} == "--watch" ]]; then
+    cp CNAME ./docs/CNAME
     bundle exec jekyll build --watch
 else
     bundle exec jekyll build
