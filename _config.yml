@@ -28,7 +28,6 @@ permalink: /:year/:title
 # Build settings
 destination: docs
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
 
