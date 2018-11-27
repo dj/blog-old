@@ -10,7 +10,7 @@ Jekyll blog based on [minima](https://github.com/jekyll/minima) theme.
 
 **Develop**
 ```
-./scripts/build --watch
+./scripts/start
 ```
 
 **Build, Commit, Deploy**
